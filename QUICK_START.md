@@ -222,19 +222,6 @@ pip install --upgrade PyQt5
    - Add screenshots of GUI
    - Write project report
 
-## Points Earned
-
-This complete scaffold provides:
-- ✓ Data Preparation: 45 points
-- ✓ Model Configuration: 60 points  
-- ✓ Model Training: 40 points
-- ✓ Model Evaluation: 45 points
-- ✓ Model Integration: 35 points
-- ✓ Decision Making: 30 points
-- ✓ Visualization: 60 points
-
-**Total: ~315 points (80-90% of max)**
-
 ## Support
 
 For issues:
@@ -242,5 +229,3 @@ For issues:
 2. Review README.md for full documentation
 3. Verify config.py settings match your hardware
 4. Test each module independently
-
-Good luck with your project!
