@@ -171,55 +171,6 @@ FC Layer 2 (num_classes units, softmax)
     ↓
 Output (Batch, num_classes)
 ```
-
-## Key Features
-
-### Data Preparation (45 points)
-- Frame extraction and resizing
-- Normalization (ImageNet statistics)
-- Stratified train/val/test splitting
-- Sequence batching
-- Frame sampling optimization
-
-### Model Configuration (60 points)
-- ResNet50 backbone
-- LSTM for temporal modeling
-- Multi-head attention mechanism
-- Dropout regularization
-- Gradient clipping
-
-### Model Training (40 points)
-- Full training loop
-- Checkpoint saving
-- Loss and accuracy tracking
-- Early stopping
-
-### Model Evaluation (45 points)
-- Multiple metrics (accuracy, precision, recall, F1, ROC-AUC)
-- Confusion matrix
-- ROC curve visualization
-- Per-class evaluation
-- Training history plots
-
-### Model Integration (35 points)
-- GUI application
-- Real-time video processing
-- Decision making system
-- Prediction visualization
-
-### Decision Making (15-50 points)
-- Rule-based alerts
-- Confidence thresholding
-- Alert cooldown system
-- Action recommendations
-
-### Visualization (20-100+ points)
-- PyQt5 GUI with 3+ windows
-- Real-time video monitoring
-- Statistics dashboard
-- Results table
-- Training visualizations
-
 ## Model Performance
 
 Expected metrics on test set:
@@ -256,21 +207,6 @@ All events are logged to `logs/monitoring_system.log`:
 - Decision making events
 - Errors and warnings
 
-## Project Points Breakdown
-
-| Component | Max Points | Status |
-|-----------|-----------|--------|
-| Project Description | 20 | To be completed |
-| Dataset | 15 | Complete |
-| Data Preparation | 45 | Complete |
-| Model Configuration | 60 | Complete |
-| Model Training | 40 | Complete |
-| Model Evaluation | 45 | Complete |
-| Model Integration | 35 | Complete |
-| Decision Making | 30 | Complete |
-| Visualization | 60 | Complete |
-| **TOTAL** | **350+** | **~290 implemented** |
-
 ## Future Enhancements
 
 - [ ] Multi-GPU support
@@ -289,13 +225,6 @@ All events are logged to `logs/monitoring_system.log`:
 - LSTM Tutorial: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
 - Attention Mechanism: https://arxiv.org/abs/1706.03762
 
-## License
-
-MIT License
-
-## Author
-
-Your Name
 
 ## Acknowledgments
 
